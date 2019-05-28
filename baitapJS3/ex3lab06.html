@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>May Tinh</title>
+	<style type="text/css">
+		.number{
+			text-align: right;
+		}
+	</style>
+	<script type="text/javascript" src="ex3lab06.js"></script>
+</head>
+<body>
+	<table width="120" border="1">
+		<tr>
+			<td colspan="4">
+				<input type="text" name="number" id="number" class="number">
+			</td>
+		</tr>
+		<tr>
+			<td><input type="button" name="num1" value="1" id="num1" onclick="getValue(this.value)"></td>
+			<td><input type="button" name="num2" value="2" id="num2" onclick="getValue(this.value)"></td>
+			<td><input type="button" name="num3" value="3" id="num3" onclick="getValue(this.value)"></td>
+			<td><input type="button" name="plus" value="+" id="plus" onclick="pheptoan(this.value)"></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="num4" value="4" id="num4" onclick="getValue(this.value)"></td>
+			<td><input type="button" name="num5" value="5" id="num5" onclick="getValue(this.value)"></td>
+			<td><input type="button" name="num6" value="6" id="num6" onclick="getValue(this.value)"></td>
+			<td><input type="button" name="sub" value="-" id="sub" onclick="pheptoan(this.value)"></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="num7" value="7" id="num7" onclick="getValue(this.value)"></td>
+			<td><input type="button" name="num8" value="8" id="num8" onclick="getValue(this.value)"></td>
+			<td><input type="button" name="num9" value="9" id="num9" onclick="getValue(this.value)"></td>
+			<td><input type="button" name="nhan" value="*" id="nhan" onclick="pheptoan(this.value)"></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="num0" value="0" id="num0" onclick="getValue(this.value)"></td>
+			<td><input type="button" name="ac" value="AC" id="ac" onclick="reset()"></td>
+			<td><input type="button" name="equal" value="=" id="equal" onclick="ketqua()"></td>
+			<td><input type="button" name="chia" value="-" id="chia" onclick="pheptoan(this.value)"></td>
+		</tr>
+	</table>
+</body>
+</html>
